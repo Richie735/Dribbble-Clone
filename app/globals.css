@@ -65,3 +65,8 @@ body {
 .projects-grid {
   @apply grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-10 mt-10 w-full;
 }
+
+/* Navbar */
+.navbar {
+  @apply py-5 px-8 border-b border-nav-border gap-4;
+}
