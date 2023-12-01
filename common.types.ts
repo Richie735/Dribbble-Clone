@@ -20,3 +20,12 @@ export interface UserProfile {
   twitterUrl: string;
   websiteUrl: string;
 }
+
+export interface ProjectForm {
+  title: string;
+  description: string;
+  image: string;
+  liveSiteUrl: string;
+  sourceCodeUrl: string;
+  tags: string;
+}
