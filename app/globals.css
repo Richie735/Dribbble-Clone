@@ -88,3 +88,12 @@ body {
 .profile_menu-items {
   @apply flex-col absolute right-1/2 translate-x-1/2 mt-3 p-7 sm:min-w-[300px] min-w-max rounded-xl bg-white border border-nav-border shadow-menu;
 }
+
+/* Modal */
+.modal {
+  @apply fixed z-10 left-0 right-0 top-0 bottom-0 mx-auto bg-black/80;
+}
+
+.modal_wrapper {
+  @apply flex justify-start items-center flex-col absolute h-[95%] w-full bottom-0 bg-white rounded-t-3xl lg:px-40 px-8 pt-14 pb-72 overflow-auto;
+}
